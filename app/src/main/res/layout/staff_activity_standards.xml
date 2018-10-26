@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluelite">
+
+    <TextView
+        android:text="@string/staff_standard"
+        android:layout_height="20dp"
+        android:id="@+id/textView10"
+        android:layout_width="200dp"
+        android:layout_marginStart="125dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:text="@string/staff_maths"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton"
+        android:layout_marginStart="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        android:layout_marginEnd="230dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <RadioButton
+        android:text="@string/staff_sub1"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton2"
+        app:layout_constraintTop_toTopOf="@+id/radioButton"
+        android:layout_marginStart="50dp"
+        app:layout_constraintLeft_toRightOf="@+id/radioButton" />
+
+    <RadioButton
+        android:text="@string/staff_science"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton3"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+    <RadioButton
+        android:text="@string/staff_sub2"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton4"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton2"
+        app:layout_constraintTop_toTopOf="@+id/radioButton3" />
+
+    <RadioButton
+        android:text="@string/staff_social"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton5"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton3"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
+    <RadioButton
+        android:text="@string/staff_sub3"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton6"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton4"
+        app:layout_constraintTop_toTopOf="@+id/radioButton5" />
+
+    <RadioButton
+        android:text="@string/staff_english"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton7"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton5"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
+
+    <RadioButton
+        android:text="@string/staff_sub4"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton8"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton6"
+        app:layout_constraintTop_toTopOf="@+id/radioButton7" />
+
+    <RadioButton
+        android:text="@string/staff_tamil"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton9"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton7"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton7" />
+
+    <RadioButton
+        android:text="@string/staff_sub5"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton10"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton8"
+        app:layout_constraintTop_toTopOf="@+id/radioButton9" />
+
+    <RadioButton
+        android:text="@string/staff_hindi"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton11"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton9"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton9" />
+
+    <RadioButton
+        android:text="@string/staff_sub6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton12"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton10"
+        app:layout_constraintTop_toTopOf="@+id/radioButton11" />
+
+    <RadioButton
+        android:text="@string/staff_french"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton13"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton11"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton11" />
+
+    <RadioButton
+        android:text="@string/staff_sub7"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton14"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton12"
+        app:layout_constraintTop_toTopOf="@+id/radioButton13" />
+
+    <TextView
+        android:text="@string/staff_pref.timings"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/textView11"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton13"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton13" />
+
+    <TextView
+        android:text="@string/staff_workday"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/textView12"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton14"
+        app:layout_constraintTop_toTopOf="@+id/textView11" />
+
+    <RadioButton
+        android:text="@string/staff_time1"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton15"
+        app:layout_constraintLeft_toLeftOf="@+id/textView11"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <RadioButton
+        android:text="@string/staff_day1"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton16"
+        app:layout_constraintLeft_toLeftOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/radioButton15" />
+
+    <RadioButton
+        android:text="@string/staff_time2"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton17"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton15"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton15" />
+
+    <RadioButton
+        android:text="@string/staff_day2"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton18"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton16"
+        app:layout_constraintTop_toTopOf="@+id/radioButton17" />
+
+    <RadioButton
+        android:text="@string/staff_time3"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton19"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton17"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton17" />
+
+    <RadioButton
+        android:text="@string/staff_day3"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/radioButton20"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton18"
+        app:layout_constraintTop_toTopOf="@+id/radioButton19" />
+
+    <Button
+        android:text="@string/staff_submit"
+        android:layout_width="150dp"
+        android:id="@+id/button3"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton20"
+        android:layout_marginStart="230dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="48dp"
+        android:onClick="submitDetails"/>
+</android.support.constraint.ConstraintLayout>

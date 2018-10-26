@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluelite">
+
+    <TextView
+        android:text="@string/staff_details"
+        android:id="@+id/textView3"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="125dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="125dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="20dp"
+        android:layout_width="100dp" />
+
+    <TextView
+        android:text="@string/staff_name"
+        android:layout_width="150dp"
+        android:id="@+id/textView4"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_marginEnd="230dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_marginStart="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/textView4"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:text="@string/staff_age"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/textView5"
+        app:layout_constraintLeft_toLeftOf="@+id/textView4"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/editText4"
+        app:layout_constraintLeft_toLeftOf="@+id/editText3"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+    <TextView
+        android:text="@string/staff_gender"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/textView6"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintLeft_toLeftOf="@+id/textView5" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_marginStart="50dp"
+        app:layout_constraintLeft_toRightOf="@+id/textView6"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <TextView
+        android:text="@string/staff_qualification"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/textView7"
+        app:layout_constraintLeft_toLeftOf="@+id/textView6"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/editText6"
+        app:layout_constraintLeft_toLeftOf="@+id/editText5"
+        app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+    <TextView
+        android:text="@string/staff_area"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/textView8"
+        app:layout_constraintLeft_toLeftOf="@+id/textView7"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/editText7"
+        app:layout_constraintLeft_toLeftOf="@+id/editText6"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+    <TextView
+        android:text="@string/staff_workStatus"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/textView9"
+        app:layout_constraintLeft_toLeftOf="@+id/textView8"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:ems="10"
+        android:id="@+id/editText9"
+        app:layout_constraintLeft_toLeftOf="@+id/editText7"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText7" />
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText9"
+        android:layout_marginStart="300dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:onClick="standardPage"/>
+
+
+</android.support.constraint.ConstraintLayout>
